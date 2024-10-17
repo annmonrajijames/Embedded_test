@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/gatt_server_demos")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/twai_network_listen_only")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,6 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Lectrix_company/work/Git_projects/Embedded_test/gatt_server/build/esp-idf/esp_system/port/soc/esp32/cmake_install.cmake")
+  include("C:/Lectrix_company/work/Git_projects/Embedded_test/twai_network_listen_only/build/esp-idf/esp_system/port/soc/esp32/cmake_install.cmake")
 endif()
 

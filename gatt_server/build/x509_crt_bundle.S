@@ -1,4 +1,4 @@
-/* * Data converted from C:/Lectrix_company/work/Git_projects/Embedded_test/gatt_server/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from C:/Lectrix_company/work/Git_projects/Embedded_test/twai_network_listen_only/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 #if !defined (__APPLE__) && !defined (__linux__)

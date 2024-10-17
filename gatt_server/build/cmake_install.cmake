@@ -1,8 +1,8 @@
-# Install script for directory: C:/Lectrix_company/work/Git_projects/Embedded_test/gatt_server
+# Install script for directory: C:/Lectrix_company/work/Git_projects/Embedded_test/twai_network_listen_only
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/gatt_server_demos")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/twai_network_listen_only")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Lectrix_company/work/Git_projects/Embedded_test/gatt_server/build/esp-idf/cmake_install.cmake")
+  include("C:/Lectrix_company/work/Git_projects/Embedded_test/twai_network_listen_only/build/esp-idf/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Lectrix_company/work/Git_projects/Embedded_test/gatt_server/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Lectrix_company/work/Git_projects/Embedded_test/twai_network_listen_only/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Lectrix_company/work/Git_projects/Embedded_test/gatt_server/build/bootloader/esp-idf/cmake_install.cmake")
+  include("C:/Lectrix_company/work/Git_projects/Embedded_test/twai_network_listen_only/build/bootloader/esp-idf/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Lectrix_company/work/Git_projects/Embedded_test/gatt_server/build/bootloader/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Lectrix_company/work/Git_projects/Embedded_test/twai_network_listen_only/build/bootloader/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
